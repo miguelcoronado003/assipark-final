@@ -1,0 +1,74 @@
+.Searchbar {
+    background-color: rgb(141, 213, 226);
+    display: flow-root;
+    height: 2rem;
+}
+
+.iconic {
+    width: 150px;
+    border-radius: 200px;
+}
+
+nav {
+    background: rgb(64, 150, 219);
+    padding: 20px 15px 27px 28px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra {
+    text-decoration: solid;
+    color: rgb(30, 33, 189);
+    text-align: center;
+}
+
+.barra:hover {
+    padding: 30px;
+    background: scroll;
+}
+
+.base {
+    color: darkblue;
+    text-align: center;
+    font-size: 77px;
+    
+}
+.base2{
+    text-align: justify;
+    background-color: gray;
+}
+
+.Consulta{
+    
+    text-align: center;
+    
+
+}
+
+.Paragraph-ind{
+    text-align: left;
+    width: 900px;
+}
+
+.prueba1 {
+    margin-top: auto;
+    height: auto;
+    padding: 40px;
+    width: 70px;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(64, 150, 219);
+    display: list-item, initial;
+    flex-direction: column;
+    flex-flow: row wrap;
+    align-items: center;
+    border: 5px;
+    overflow: hidden;
+    position: fixed;
+    align-items: flex-start;
+}
+
+.prueba {
+    height: 100px;
+    
+}
