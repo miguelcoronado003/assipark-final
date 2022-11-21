@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    box-sizing: border-box
+    
+}
+
+body {
+    font-family: sans-serif;
+    padding: 200px 20px 0px;
+    background-image: url("../Imagenes/Contacto.jpg");
+    background-size: cover;
+    display: flex;
+    min-height: 100vh;
+}
+
+.header {
+    background-image: linear-gradient(to right,#5533FF,#2BC4F6);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+    margin-left: 150px;
+
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.Logo {
+    font-size: 40px;
+    padding: 20px 15px;
+    line-height: 50px;
+    
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 10px;
+    list-style: none;
+    
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 50px;
+    width: max-content;
+
+}
+
+.nav-menu-link {
+    padding: 8px 10px;
+    border-radius: 3px;
+    
+}
+
+.nav-menu-link:hover {
+    background-color: #482ccf;
+    transition: 0.5s;
+}
+
+.form_title {
+    font-size: 2rem;
+    
+    
+}
+.form_paragraph {
+    font-weight: 300;
+}
+
+.Form {
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px -5px rgb(0 0 0, 30%);
+    text-align: center;
+}
+.contenedor {
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+
+.form_group {
+    position: relative;
+    --color: #5757577e;
+
+}
+
+.form_input{
+    width: 100%;
+    background: none;
+    font-size:  1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+}
+
+.form_input:not(:placeholder-shown) {
+    color: rgba(0, 0, 0, 0.829);
+
+}
+.form_label {
+    color: var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .1s, color,1s;    
+}
+.form_input:focus + .form_label,
+.form_input:not(:placeholder-shown) + .form_label {
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: rgba(15, 93, 236, 0.829);
+}
+
+.form_submit {
+    background-color: rgba(15, 93, 236, 0.829);
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: .8em 0;
+    border: none;
+    border-radius: .5em;
+}
+
+.form_line {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(15, 93, 236, 0.829);
+    transform: left bottom;
+    transition:  transform .2s;
+}
+
